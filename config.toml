@@ -1,0 +1,51 @@
+baseurl = "http://www.devopsderek.com"
+title = "devops Derek"
+languageCode = "en-us"
+disqusShortname = "devopsderek" # Optional, enable Disqus integration
+MetaDataFormat = "toml"
+theme = "hyde-x"
+
+[author]
+    name = "Derek Tamsen"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/blog/:year/:month/:day/:title/"
+
+[indexes]
+    # Optional. Use if you want tags and lists.
+    category = "categories"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # Used when a given page doesn't set its own.
+    defaultDescription = "Your default page description"
+    defaultKeywords = "your,default,page,keywords"
+
+    # Changes sidebar background and link/accent colours.
+    # See below for more colour options.
+    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-0d"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "googlecode"
+
+    # Displays under the author name in the sidebar, keep it short.
+    tagline = "Welcome to my blog about IT, Devops, Linux, and other things"
+
+    # Metadata used to drive integrations.
+    googleAuthorship = "+DerekTamsen211"
+    googleAnalytics = "UA-35931506-1"
+    gravatarHash = "1524b9dd15729824379a5f9fb47db32e"
+
+    # Sidebar social links, avoid enabling too many of these if possible.
+    # These should be full URLs.
+    github = "https://github.com/derektamsen"
+    linkedin = "https://www.linkedin.com/in/derektamsen/"
+    #googleplus = ""
+    #facebook = ""
+    twitter = "https://twitter.com/derektamsen"
