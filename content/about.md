@@ -5,6 +5,8 @@ description = "About Me"
 keywords = ["me", "about"]
 draft = false
 title = "About"
+comments = false
+share = false
 menu = "main"
 
 +++

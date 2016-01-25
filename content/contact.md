@@ -5,6 +5,8 @@ description = "How to contact me"
 keywords = ["contact"]
 draft = false
 title = "Contact"
+comments = false
+share = false
 menu = "main"
 
 +++
