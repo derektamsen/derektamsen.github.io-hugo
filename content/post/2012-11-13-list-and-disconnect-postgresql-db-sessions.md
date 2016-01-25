@@ -1,9 +1,8 @@
 +++
-categories = ["postgres"]
 date = "2012-11-13T23:53:00-08:00"
 description = "Some times it is necessary to terminate a PostgreSQL query and connection. This can be very helpful when you have a run away command or script. It can also be helpful if your application has submitted a query to the backend that has caused everything to grind to a halt. Fortunately, postgres comes to the rescue and provides a few helpful commands that will allow you to cancel the query from the database and optionally terminate the user or application's connection."
 draft = false
-keywords = ["postgres"]
+tags = ["postgres"]
 title = "list and disconnect postgresql db sessions"
 
 +++

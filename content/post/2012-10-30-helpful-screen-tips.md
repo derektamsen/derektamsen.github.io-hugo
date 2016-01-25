@@ -1,9 +1,8 @@
 +++
-categories = ["screen", "linux"]
 date = "2012-10-30T00:08:00-08:00"
 description = "Screen is a great command to know when working on linux and unix systems. Screen allows long commands to stay running if you become disconnected from a server or if you want to disconnect."
 draft = false
-keywords = ["screen", "linux"]
+tags = ["screen", "linux"]
 title = "helpful screen tips"
 
 +++

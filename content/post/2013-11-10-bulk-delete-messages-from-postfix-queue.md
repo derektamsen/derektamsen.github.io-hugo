@@ -1,9 +1,8 @@
 +++
-categories = ["smtp", "postfix", "linux"]
 date = "2013-11-10T16:41:00-08:00"
 description = "Have you have ever had a script or application accidentally send thousands of messages through your postfix queue? With this simple tip you no longer need to wait for those messages to be processed through the Postfix queue. This one liner is also helpful if you have a lot of differed messages in the Postfix queue you would like to discard."
 draft = false
-keywords = ["smtp", "postfix", "linux"]
+tags = ["smtp", "postfix", "linux"]
 title = "bulk delete messages from postfix queue"
 
 +++
