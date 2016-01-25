@@ -7,4 +7,6 @@ This is the source for http://www.devopsderek.com.
   `sudo apt-get install python-pygments`.
 
 ## Deploying
+_https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pages_
+
 `./deploy 'Commit Message'`

@@ -1,9 +1,56 @@
-baseurl = "http://www.devopsderek.com"
-title = "devops Derek"
-languageCode = "en-us"
-disqusShortname = "devopsderek" # Optional, enable Disqus integration
-MetaDataFormat = "toml"
-theme = "hyde-x"
+# baseurl = "http://devopsderek.com"
+# languageCode = "en-us"
+# title = "devops Derek"
+# # Copyright notice. This is displayer in the footer.
+# copyright = "&copy; Copyright Derek Tamsen"
+# MetaDataFormat = "toml"
+# theme = "vienna"
+#
+# [params]
+#     # Social accounts. Link to these accounts are displayed in the header and
+#     # footer.
+#     twitter = "derektamsen"
+#     github = "derektamsen"
+#     linkedin = "derektamsen"
+#     keybase = "derektamsen"
+#     instagram = "themindofderek"
+#     # Disqus shortname
+#     disqus = "devopsderek"
+#     # Google Analytics API key.
+#     ga_api_key = "UA-35931506-1"
+#     author = "Derek Tamsen"
+#     avatar = ""
+#     contact = "mailto:dtamsen+blog@gmail.com"
+#     bio = "Your short bio"
+#     # Short subtitle/tagline. This is displayed in the header.
+#     subtitle = "Welcome to my blog about IT, Devops, Linux, and other things"
+#     themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
+#
+
+
+
+BaseUrl= "http://devopsderek.com"
+LanguageCode= "en-US"
+Title= "devops Derek"
+paginate = 5
+DisqusShortname = "devopsderek"
+Copyright = "&copy; Derek Tamsen"
+
+[params]
+  description = "Welcome to my blog about IT, Devops, Linux, and other things"
+  # cover = "images/cover.jpg"
+  author = "Derek Tamsen"
+  authorlocation = "San Francisco, CA"
+  authorwebsite = "http://devopsderek.com"
+  bio= "my bio"
+  # logo = "https://www.gravatar.com/avatar/1524b9dd15729824379a5f9fb47db32e?s=200"
+  googleAnalyticsUserID = "UA-35931506-1"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  githubName = "derektamsen"
+  twitterName = "derektamsen"
+  linkedinName = "derektamsen"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
 
 [author]
     name = "Derek Tamsen"
@@ -16,36 +63,3 @@ theme = "hyde-x"
 [indexes]
     # Optional. Use if you want tags and lists.
     category = "categories"
-
-#
-# All parameters below here are optional and can be mixed and matched.
-#
-[params]
-    # Used when a given page doesn't set its own.
-    defaultDescription = "Your default page description"
-    defaultKeywords = "your,default,page,keywords"
-
-    # Changes sidebar background and link/accent colours.
-    # See below for more colour options.
-    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
-    theme = "theme-base-0d"
-
-    # Select a syntax highight.
-    # Check the static/css/highlight directory for options.
-    highlight = "googlecode"
-
-    # Displays under the author name in the sidebar, keep it short.
-    tagline = "Welcome to my blog about IT, Devops, Linux, and other things"
-
-    # Metadata used to drive integrations.
-    googleAuthorship = "+DerekTamsen211"
-    googleAnalytics = "UA-35931506-1"
-    gravatarHash = "1524b9dd15729824379a5f9fb47db32e"
-
-    # Sidebar social links, avoid enabling too many of these if possible.
-    # These should be full URLs.
-    github = "https://github.com/derektamsen"
-    linkedin = "https://www.linkedin.com/in/derektamsen/"
-    #googleplus = ""
-    #facebook = ""
-    twitter = "https://twitter.com/derektamsen"
