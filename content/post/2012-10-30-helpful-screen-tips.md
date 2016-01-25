@@ -39,15 +39,15 @@ $ screen -ls
 ### Disconnect from a session
 Once you are in a screen session you can disconnect from it and keep your existing commands running
 
-- Press <kbd><kbd>CTRL</kbd>+<kbd>A</kbd></kbd>
-- Then press <kbd><kbd>D</kbd></kbd> for detach
+- Press <kbd>CTRL</kbd>+<kbd>A</kbd>
+- Then press <kbd>D</kbd> for detach
 
 ### Leaning more
 Screen is quite powerful. If you would like to learn more you can use the built-in help functions.
 
 ##### In-screen help
-- Press <kbd><kbd>CTRL</kbd>+<kbd>A</kbd></kbd>
-- Then press <kbd><kbd>?</kbd></kbd> to bring up the onscreen help menu.
+- Press <kbd>CTRL</kbd>+<kbd>A</kbd>
+- Then press <kbd>?</kbd> to bring up the onscreen help menu.
 
 ##### You can also view the manpages for screen
 ```sh
