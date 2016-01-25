@@ -8,18 +8,16 @@ theme = "casper"
 
 [params]
   description = "Welcome to my blog about IT, Devops, Linux, and other things"
-  # cover = "images/cover.jpg"
+  cover = "images/cover_ggbridge.png"
   author = "Derek Tamsen"
   authorlocation = "San Francisco, CA"
   authorwebsite = "http://devopsderek.com"
   bio= "my bio"
-  # logo = "https://www.gravatar.com/avatar/1524b9dd15729824379a5f9fb47db32e?s=200"
+  logo = "images/author_derektamsen.png"
   googleAnalyticsUserID = "UA-35931506-1"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
   githubName = "derektamsen"
   twitterName = "derektamsen"
   linkedinName = "derektamsen"
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
 
 [author]
