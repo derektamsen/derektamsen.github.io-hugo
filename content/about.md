@@ -24,9 +24,9 @@ Sorry, last plug [view my linkedin profile](http://www.linkedin.com/in/derektams
 
 ### Favorite Quotes
 > Great spirits have always encountered violent opposition from mediocre minds. The mediocre mind is incapable of understanding the man who refuses to bow blindly to conventional prejudices and chooses instead to express his opinions courageously and honestly.
-> 
+>
 > -- <cite>Albert Einstein, Letter to Morris Raphael Cohen</cite>
 
 > The iPod came from two people, Steve and Jonathan. The Zune came from 250. Which product would you rather own?
-> 
+>
 > -- <cite>Seth Godin http://zenhabits.net/the-reason-you%E2%80%99re-stuck/</cite>
