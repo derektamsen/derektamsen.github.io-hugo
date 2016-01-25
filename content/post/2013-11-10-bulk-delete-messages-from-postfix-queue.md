@@ -16,9 +16,7 @@ You can simply use standard linux tools to awk through your Postfix queue and dr
 _The usual caution: This will permanently drop the filtered messages from you postfix queue. You may want to see the output before piping it to postsuper._
 
 ```sh
-sudo /usr/sbin/postqueue -p | tail -n +2 | \
-awk 'BEGIN { RS = "" } / someaddress@example\.com/ { print $1 }' | \
-tr -d '*!' | sudo /usr/sbin/postsuper -d -
+sudo postqueue -p | grep 'someaddress@example.com' | cut -d ' ' -f1 | tr -d '*' | sudo postsuper -d -
 ```
 
 ### Command Overview
