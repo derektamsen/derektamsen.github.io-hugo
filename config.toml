@@ -1,9 +1,9 @@
 BaseUrl= "http://www.devopsderek.com/"
-LanguageCode= "en-US"
+LanguageCode= "en-us"
 Title= "devops Derek"
 paginate = 5
 DisqusShortname = "devopsderek"
-Copyright = "&copy; Derek Tamsen"
+Copyright = "&copy; <script>document.write(new Date().getFullYear())</script> Derek Tamsen"
 theme = "casper"
 
 [params]
