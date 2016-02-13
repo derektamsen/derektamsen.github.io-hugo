@@ -30,4 +30,4 @@ theme = "casper"
 
 [indexes]
   # Optional. Use if you want tags and lists.
-  category = "tags"
+  tag = "tags"
