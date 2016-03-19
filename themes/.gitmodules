@@ -217,3 +217,21 @@
 [submodule "type"]
 	path = type
 	url = git://github.com/digitalcraftsman/hugo-type-theme.git
+[submodule "hugo-geo"]
+	path = hugo-geo
+	url = https://github.com/alexurquhart/hugo-geo.git
+[submodule "blackburn"]
+	path = blackburn
+	url = https://github.com/yoshiharuyamashita/blackburn.git
+[submodule "hugo-octopress"]
+	path = hugo-octopress
+	url = https://github.com/parsiya/Hugo-Octopress
+[submodule "material-docs"]
+	path = material-docs
+	url = https://github.com/digitalcraftsman/hugo-material-docs.git
+[submodule "internet-weblog"]
+	path = internet-weblog
+	url = https://github.com/jnjosh/internet-weblog.git
+[submodule "hugo-phlat-theme"]
+	path = hugo-phlat-theme
+	url = https://github.com/nraboy/hugo-phlat-theme
