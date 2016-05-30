@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/derektamsen/derektamsen.github.io-hugo.svg?branch=master)](https://travis-ci.org/derektamsen/derektamsen.github.io-hugo)
+
 # Devops Derek Source
 This is the source for http://www.devopsderek.com.
 
