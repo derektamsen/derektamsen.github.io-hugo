@@ -1,7 +1,12 @@
 language: go
+git:
+  submodules: false
+before_install:
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git submodule update --init --recursive
 install: go get -v github.com/spf13/hugo
 script:
   - hugo check --verbose
 notifications:
-    email:
-        on_failure: always
+  email:
+    on_failure: always
