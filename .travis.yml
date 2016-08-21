@@ -3,7 +3,9 @@ sudo: false
 env:
   global:
   - GIT_AUTHOR_NAME: travis-ci
+  - GIT_COMMITTER_NAME: ${GIT_AUTHOR_NAME}
   - GIT_AUTHOR_EMAIL: derektamsen@users.noreply.github.com
+  - GIT_COMMITTER_EMAIL: ${GIT_AUTHOR_EMAIL}
   - REPO: derektamsen.github.io
   - GH_REPO: github.com/derektamsen/${REPO}.git
   - DEPLOY_BRANCH: master
