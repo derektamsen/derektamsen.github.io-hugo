@@ -199,9 +199,6 @@
 [submodule "github-project-landing-page"]
 	path = github-project-landing-page
 	url = https://github.com/oarrabi/github-project-landing-page.git
-[submodule "slender"]
-	path = slender
-	url = https://github.com/CrimsonRay/slender.git
 [submodule "hugo-plus"]
 	path = hugo-plus
 	url = https://github.com/H4tch/hugo-plus.git
@@ -235,3 +232,60 @@
 [submodule "hugo-phlat-theme"]
 	path = hugo-phlat-theme
 	url = https://github.com/nraboy/hugo-phlat-theme
+[submodule "beautifulhugo"]
+	path = beautifulhugo
+	url = https://github.com/halogenica/beautifulhugo.git
+[submodule "future-imperfect"]
+	path = future-imperfect
+	url = https://github.com/jpescador/hugo-future-imperfect.git
+[submodule "hugo-pacman-theme"]
+	path = hugo-pacman-theme
+	url = https://github.com/coderzh/hugo-pacman-theme.git
+[submodule "hugo-identity-theme"]
+	path = hugo-identity-theme
+	url = https://github.com/aerohub/hugo-identity-theme.git
+[submodule "hugo-theme-learn"]
+	path = hugo-theme-learn
+	url = https://github.com/matcornic/hugo-theme-learn.git
+[submodule "hugo-darkdoc-theme"]
+	path = hugo-darkdoc-theme
+	url = https://github.com/adejoux/hugo-darkdoc-theme.git
+[submodule "hugo-bootstrap-premium"]
+	path = hugo-bootstrap-premium
+	url = https://github.com/appernetic/hugo-bootstrap-premium.git
+[submodule "academic"]
+	path = academic
+	url = https://github.com/gcushen/hugo-academic.git
+[submodule "hugo-theme-geppaku"]
+	path = hugo-theme-geppaku
+	url = https://github.com/masa0221/hugo-theme-geppaku.git
+[submodule "hugo-lithium-theme"]
+	path = hugo-lithium-theme
+	url = https://github.com/jrutheiser/hugo-lithium-theme.git
+[submodule "hugo-theme-arch"]
+	path = hugo-theme-arch
+	url = https://github.com/syui/hugo-theme-arch
+[submodule "Shapez-Theme"]
+	path = Shapez-Theme
+	url = https://github.com/djuelg/Shapez-Theme
+[submodule "hugo-alabaster-theme"]
+	path = hugo-alabaster-theme
+	url = https://github.com/digitalcraftsman/hugo-alabaster-theme
+[submodule "hugo-theme-wave"]
+	path = hugo-theme-wave
+	url = https://github.com/syui/hugo-theme-wave
+[submodule "highlights"]
+	path = highlights
+	url = https://github.com/schmanat/hugo-highlights-theme.git
+[submodule "would-have-been-cool-in-the-80s"]
+	path = would-have-been-cool-in-the-80s
+	url = https://github.com/pedrodude/would-have-been-cool-in-the-80s.git
+[submodule "hugo-dgraph-theme"]
+	path = hugo-dgraph-theme
+	url = https://github.com/dgraph-io/hugo-dgraph-theme
+[submodule "paperback"]
+	path = paperback
+	url = https://github.com/damiencaselli/paperback
+[submodule "hugo-universal-theme"]
+	path = hugo-universal-theme
+	url = https://github.com/devcows/hugo-universal-theme
