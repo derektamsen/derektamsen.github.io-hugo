@@ -2,6 +2,8 @@
 	path = public
 	url = git@github.com:derektamsen/derektamsen.github.io.git
 	branch = master
-[submodule "themes/hugo-theme-casper"]
-	path = themes/hugo-theme-casper
+[submodule "casper"]
+	path = themes/casper
 	url = https://github.com/vjeantet/hugo-theme-casper.git
+	branch = master
+
