@@ -2,7 +2,7 @@
 date = "2013-03-10T15:43:00-08:00"
 draft = false
 tags = ["Mac OS X", "man", "preview"]
-title = "view man pages with preview on mac os x"
+title = "View Man Pages with Preview on Mac OS X"
 
 +++
 
