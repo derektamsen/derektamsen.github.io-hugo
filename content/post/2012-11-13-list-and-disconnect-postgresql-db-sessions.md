@@ -2,7 +2,7 @@
 date = "2012-11-13T23:53:00-08:00"
 draft = false
 tags = ["postgres"]
-title = "list and disconnect postgresql db sessions"
+title = "List and Disconnect PostgreSQL DB Sessions"
 
 +++
 
