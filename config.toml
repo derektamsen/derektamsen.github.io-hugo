@@ -7,7 +7,7 @@ Copyright = "&copy; <script>document.write(new Date().getFullYear())</script> De
 theme = "casper"
 
 [params]
-  description = "Welcome to my blog about IT, Devops, Linux, and other things"
+  description = "IT : Devops : Linux : Random"
   cover = "images/cover_ggbridge.png"
   author = "Derek Tamsen"
   authorlocation = "San Francisco, CA"
