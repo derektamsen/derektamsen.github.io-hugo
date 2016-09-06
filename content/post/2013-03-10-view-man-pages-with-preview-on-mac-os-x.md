@@ -3,6 +3,7 @@ date = "2013-03-10T15:43:00-08:00"
 draft = false
 tags = ["Mac OS X", "man", "preview"]
 title = "View Man Pages with Preview on Mac OS X"
+description = "I am always looking for better ways to integrate the unix components into Mac OS X. I recently came across a great way to connect the `man` pages to a more visual mode in OS X."
 
 +++
 
@@ -41,7 +42,7 @@ pman() {
 ## Viewing man pages with preview
 Viewing man pages with preview is now as simple as using `pman` instead of `man`. _It may take a few seconds for the `man` page to open depending on the speed of your machine._
 
-### Some Examples:
+## Some Examples:
 
 - View man pages for manual:
 ```sh
@@ -58,5 +59,9 @@ pman chroot
 pman 2 chroot
 ```
 
-### View the manual page for ls
+## View the manual page for ls
+```sh
+pman ls
+```
+
 {{% figure src="/images/pman_ls.png" title="pman example with ls" %}}

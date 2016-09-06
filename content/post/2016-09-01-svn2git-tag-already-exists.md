@@ -8,6 +8,7 @@ menu = ""
 share = true
 tags = ["svn", "subversion", "git", "svn2git", "vcs"]
 title = "svn2git: Tag Already Exists"
+description = "If you find yourself migrating a repository from subversion to git you may run into a couple issues. One common issue I ran into was where an engineer updated a tag. When converting a repository with a modified tag, `svn2git` will stop and return an error message stating that a duplicate tag is present."
 
 +++
 
@@ -16,12 +17,12 @@ If you find yourself migrating a repository from subversion to git you may run i
 Fortunately, this is an easy issue to correct. You simply need to delete the tag and rerun the conversion. This works because `svn2git` is replaying the commit history from oldest to newest against the new git repository. After removing the older tag, re-running `svn2git` will apply the next tag creation.
 
 Delete the old tag in the new git repository:
-```
+```sh
 git tag -d 1.4
 ```
 
 Then, perform the svn2git rebase to create the next version of the tag:
-```
+```sh
 svn2git --rebase
 ```
 

@@ -1,27 +1,40 @@
-BaseUrl= "http://www.devopsderek.com/"
-LanguageCode= "en-us"
-Title= "devops Derek"
-paginate = 5
-DisqusShortname = "devopsderek"
-Copyright = "&copy; <script>document.write(new Date().getFullYear())</script> Derek Tamsen"
-theme = "casper"
+baseurl = "http://www.devopsderek.com/"
+languageCode = "en-us"
+title = "devops Derek"
+disqusShortname = "devopsderek"
+theme = "hugo-steam-theme"
+paginate = 10
 
 [params]
-  description = "IT : Devops : Linux : Random"
-  cover = "images/cover_ggbridge.png"
-  author = "Derek Tamsen"
-  authorlocation = "San Francisco, CA"
-  authorwebsite = "http://www.devopsderek.com/"
-  bio = "I’m a nerd who enjoys the inner workings of devops."
-  logo = "images/author_derektamsen.png"
-  googleAnalyticsUserID = "UA-35931506-1"
-  githubName = "derektamsen"
-  twitterName = "derektamsen"
-  linkedinName = "derektamsen"
-  hideHUGOSupport = false
+  title = "devops Derek"
+  subtitle = "IT - Devops - Linux - /dev/urandom"
+  copyright = "Powered by [Hugo](https://gohugo.io)"
 
-[author]
+  # You can choose between green, orange, red and blue.
+  themeColor = "blue"
+  # Enable Google Analytics be inserting your tracking code
+  googleAnalytics = "UA-35931506-1"
+
+  # To provide some metadata for search engines and the about section in the footer
+  # feel free to add a few information about you and your website.
   name = "Derek Tamsen"
+  bio = "I’m a nerd who enjoys the inner workings of devops."
+  location = "San Francisco, CA"
+  twitter = "derektamsen"
+  github = "derektamsen"
+  linkedin = "derektamsen"
+
+  # Enable a comment system
+  # You can choose between Disqus or Google Plus by setting comments
+  # to disqus or googleplus. For using Disqus you need to enter your
+  # shortname in disqusShortname at the top of the configs.
+  comments = "disqus"
+
+  # Customize or translate the strings
+  keepReadingStr = "Keep reading"
+  backtotopStr = "Back to top"
+  shareStr = "Share"
+  pageNotFoundTitle = "404 - Page not found"
 
 [permalinks]
   # Optional. Change the permalink format for the 'post' content type.
