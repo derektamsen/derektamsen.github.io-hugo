@@ -5,8 +5,9 @@ This is the source for http://www.devopsderek.com.
 
 ## Setup
 - Install latest hugo from https://github.com/spf13/hugo/releases
+  `sudo apt-get install hugo`
 - Install pygments to support highlighting:
-  `sudo apt-get install python-pygments`.
+  `sudo apt-get install python-pygments`
 
 ## Automatic Deploy
 Travis-ci should automatically deploy the static files upon successfully merging
