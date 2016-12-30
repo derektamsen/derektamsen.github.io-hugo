@@ -8,6 +8,7 @@ title = "Contact"
 comments = false
 share = false
 menu = "main"
+hide = "true"
 
 +++
 

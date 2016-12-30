@@ -8,6 +8,7 @@ menu = "main"
 share = false
 tags = ["encryption", "security", "gpg", "keybase"]
 title = "Keybase and GPG"
+hide = "true"
 
 +++
 

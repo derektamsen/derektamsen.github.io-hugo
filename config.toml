@@ -11,7 +11,7 @@ paginate = 10
   copyright = "Powered by [Hugo](https://gohugo.io)"
 
   # You can choose between green, orange, red and blue.
-  themeColor = "blue"
+  themecolor = "blue"
   # Enable Google Analytics be inserting your tracking code
   googleAnalytics = "UA-35931506-1"
 

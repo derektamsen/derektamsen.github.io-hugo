@@ -64,4 +64,4 @@ pman 2 chroot
 pman ls
 ```
 
-{{% figure src="/images/pman_ls.png" title="pman example with ls" %}}
+{{% figure src="/img/pman_ls.png" title="pman example with ls" %}}
