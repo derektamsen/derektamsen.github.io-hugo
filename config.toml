@@ -4,6 +4,7 @@ title = "devops Derek"
 disqusShortname = "devopsderek"
 theme = "hugo-steam-theme"
 paginate = 10
+enableRobotsTXT = true
 
 [params]
   title = "devops Derek"
