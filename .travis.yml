@@ -15,6 +15,7 @@ script:
 after_success:
 - hugo --verbose
 deploy:
+  skip_cleanup: true
   provider: firebase
   token:
     secure: "UiFNFJwNXqoJbIDaDFNSJ9H4ZGmD5M7O/kNFsLtEjbwVd+Z6AQo/2nk2QO4sHxlMODx/0YTKod2cn/HFPYA39W+z36vJhXlMn884ZXHrh5QxsVQenvYM/lrCODCL8xPnIIsk5AXRpPHIYHvw0R5Qppw2D1Tq2v0BhmTJ3L9G1vM="
