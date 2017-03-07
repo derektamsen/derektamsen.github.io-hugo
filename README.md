@@ -1,13 +1,13 @@
 [![Build Status](https://travis-ci.org/derektamsen/derektamsen.github.io-hugo.svg?branch=master)](https://travis-ci.org/derektamsen/derektamsen.github.io-hugo)
 
 # Devops Derek Source
-This is the source for http://www.devopsderek.com.
+This is the source for https://www.devopsderek.com.
 
 ## Setup
 - Install latest hugo from https://github.com/spf13/hugo/releases
   `sudo apt-get install hugo`
 - Install pygments to support highlighting:
-  `sudo apt-get install python-pygments`
+  `sudo apt install python3-pygments`
 
 ## Automatic Deploy
 Travis-ci should automatically deploy the static files upon successfully merging
@@ -19,7 +19,7 @@ https://gohugo.io/tutorials/github-pages-blog/#hosting-personal-organization-pag
 `./deploy 'Commit Message'`
 
 ## Encrypting Travis-ci Vars
-In order to encrypt the Travis-ci environemnt variables we will need to install
+In order to encrypt the Travis-ci environment variables we will need to install
 the CLI tools.
 
 https://docs.travis-ci.com/user/encrypting-files/#Manual-Encryption
