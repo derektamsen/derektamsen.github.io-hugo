@@ -1,28 +1,22 @@
 language: go
 sudo: false
-
 notifications:
   email:
     on_failure: always
-
 addons:
   apt:
     packages:
     - python3-pygments
-
 install:
-  - go get -v github.com/spf13/hugo
-
+- go get -v github.com/spf13/hugo
 script:
-  - hugo version
-  - hugo check --verbose
-
+- hugo version
+- hugo check --verbose
 after_success:
-  - hugo --verbose
-
+- hugo --verbose
 deploy:
   provider: firebase
   token:
-    secure: "emITZIinUQFtwGx//Ef9Rc1BHKO4XRNNSmxVatMkJ8PudZqi7aRpXpoG2xT2+Jali5ljHDgC/54Cy5s5DeDB83ZId2RHe8lcJVHWjv4EEBBSNXGGuH7BDaDAR5DtFvh6byUclsQ3nP0s9AxrzHD1c+iEU9AN+XfR2VmstNMUgIk="
+    secure: "UiFNFJwNXqoJbIDaDFNSJ9H4ZGmD5M7O/kNFsLtEjbwVd+Z6AQo/2nk2QO4sHxlMODx/0YTKod2cn/HFPYA39W+z36vJhXlMn884ZXHrh5QxsVQenvYM/lrCODCL8xPnIIsk5AXRpPHIYHvw0R5Qppw2D1Tq2v0BhmTJ3L9G1vM="
   on:
     branch: master
