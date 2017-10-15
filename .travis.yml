@@ -8,7 +8,9 @@ addons:
     packages:
     - python3-pygments
 install:
-- go get -v github.com/spf13/hugo
+- go get -v github.com/kardianos/govendor
+- govendor get github.com/gohugoio/hugo
+- go install github.com/gohugoio/hugo
 script:
 - hugo version
 - hugo check --verbose
