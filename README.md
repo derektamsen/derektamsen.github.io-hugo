@@ -3,6 +3,13 @@
 # Devops Derek Source
 This is the source for https://www.devopsderek.com.
 
+## Content
+### New Article
+Create a new article run:
+```
+hugo new post/$(date +%Y-%m-%d)-article-title.md
+```
+
 ## Setup
 - Install latest hugo from https://github.com/spf13/hugo/releases:
   `sudo apt-get install hugo`
@@ -13,7 +20,7 @@ This is the source for https://www.devopsderek.com.
 Travis-ci should automatically deploy the static files upon successfully merging
 to the master branch.
 
-### Manual Deployment Setup
+## Manual Deployment Setup
 - Install and setup Google Firebase.
   `npm install -g firebase-tools`
 - Login to Firebase:
