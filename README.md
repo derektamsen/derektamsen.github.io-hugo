@@ -9,30 +9,36 @@ This is the source for https://www.devopsderek.com.
 - Install pygments to support highlighting:
   `sudo apt install python3-pygments`
 
-### Deployment Setup
-- Install and setup Google Firebase. _This is for deployment only:_
-  `npm install -g firebase-tools`
-- Login to Firebase:
-  `firebase login`
-
 ## Automatic Deploy
 Travis-ci should automatically deploy the static files upon successfully merging
 to the master branch.
+
+### Manual Deployment Setup
+- Install and setup Google Firebase.
+  `npm install -g firebase-tools`
+- Login to Firebase:
+  `firebase login`
 
 ## Manually Deploying
 Before manually deploying you will need to follow the setup process for the Google Firebase Client.
 
 `./deploy`
 
-## Encrypting Travis-ci Vars
-In order to encrypt the Travis-ci environment variables we will need to install
-the CLI tools.
+## Generate and Encrypt Firebase Deployment Token for Travis
+In order to encrypt the firebase deployment token for Travis we will need to install
+the travis CLI tools.
 
 https://docs.travis-ci.com/user/encrypting-files/#Manual-Encryption
 
+Install and login to travis:
 ```
 gem install bundler
-bundle install
+bundle install --with development
 travis login
-travis encrypt super_secret_password=foobar --add
+```
+
+Generate and encrypt the firebase token for use with travis:
+```
+firebase login:ci
+travis encrypt "<super_secret_token_from_loginci>" --add deploy.token
 ```
