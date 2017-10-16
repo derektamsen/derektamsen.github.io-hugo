@@ -13,7 +13,7 @@ hide = "true"
 +++
 
 ## devops Derek
-devops Derek is a place for me to keep notes related to things I am working on. It makes it easy for me to later `grep -iR something_I_did_in_the_past`. Hopefully, it is also useful to others.
+devops Derek is a place to keep notes related to things I am working on. It makes it easier to later `grep -iR something_I_did_in_the_past ./`. Hopefully, it is also useful to others.
 
 ## Me
 I'm a nerd who enjoys the inner workings of devops. In my free time I also enjoy snowboarding and going to live concerts in small venues.
