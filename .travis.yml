@@ -7,16 +7,18 @@ addons:
   apt:
     packages:
     - python3-pygments
-    - snapd
+    - jq
 before_install:
-- systemctl restart snapd
+- export HUGO_TYPE="Linux-64bit.tar.gz"
+- export HUGO_URL=$(curl -fL 'https://api.github.com/repos/gohugoio/hugo/releases/latest' | jq -r ".assets[] | select(.name | test(\"${HUGO_TYPE}\")) | .browser_download_url")
+- wget -O hugo_latest.tar.gz "${HUGO_URL}"
 install:
-- snap install hugo
+- tar -xzvf hugo_latest.tar.gz -C /tmp hugo
 script:
-- hugo version
-- hugo check --verbose
+- /tmp/hugo version
+- /tmp/hugo check --verbose
 after_success:
-- hugo --verbose
+- /tmp/hugo --verbose
 deploy:
   skip_cleanup: true
   provider: firebase
