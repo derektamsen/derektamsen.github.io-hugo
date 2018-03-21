@@ -8,6 +8,8 @@ addons:
     packages:
     - python3-pygments
     - snapd
+before_install:
+- systemctl restart snapd
 install:
 - snap install hugo
 script:
