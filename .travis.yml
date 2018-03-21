@@ -7,10 +7,9 @@ addons:
   apt:
     packages:
     - python3-pygments
+    - snapd
 install:
-- go get -v github.com/kardianos/govendor
-- govendor get -v github.com/gohugoio/hugo
-- go install github.com/gohugoio/hugo
+- snap install hugo
 script:
 - hugo version
 - hugo check --verbose
