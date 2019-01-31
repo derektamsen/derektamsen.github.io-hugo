@@ -23,6 +23,6 @@ deploy:
   skip_cleanup: true
   provider: firebase
   token:
-    secure: HRFxcbVBIqHu6d87rHIzWZamxqwdg2prC9udCgCOCCWFdt3FpVg+TIGIYJVsLTW5I8nWVcuxN0JnovM3VT/npXyt0Mi9FGCyyPGjhCVcAUNd6CrrCFM1WuhMTiS9KJiN0FUXjBzWOzCKvdNIlZqf3yV7iQuyIHJo7GsoUonBDDk=
+    secure: N5R8A3p5Eb9zvxN4lJyR3wGvUWsXiociimaIqYhph+7fd/9SQKAREW2Oz7YU+UWzXmFd420RdRrzQv+lwjms9kiuh3Z6vKO4ffFTnpVu0TBVKJfimKegZpTHgU3rmbTwMRcLGJCgkcERLQ5YHrQWcJLI5eHe1OEFrqEHe1ihy7g=
   on:
     branch: master
