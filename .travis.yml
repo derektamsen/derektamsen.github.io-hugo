@@ -1,24 +1,24 @@
-language: go
-sudo: false
+language: generic
+dist: xenial
+
 notifications:
   email:
     on_failure: always
+
 addons:
   apt:
     packages:
-    - python3-pygments
-    - jq
-before_install:
-- export HUGO_TYPE="Linux-64bit.tar.gz"
-- export HUGO_URL=$(curl -fL 'https://api.github.com/repos/gohugoio/hugo/releases/latest' | jq -r ".assets[] | select(.name | test(\"${HUGO_TYPE}\")) | .browser_download_url")
-- wget -O hugo_latest.tar.gz "${HUGO_URL}"
-install:
-- tar -xzvf hugo_latest.tar.gz -C /tmp hugo
+      - python3-pygments
+  snaps:
+    - hugo
+
 script:
-- /tmp/hugo version
-- /tmp/hugo check --verbose
+  - hugo version
+  - hugo check --verbose
+
 after_success:
-- /tmp/hugo --verbose
+  - hugo --verbose
+
 deploy:
   skip_cleanup: true
   provider: firebase
