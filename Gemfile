@@ -2,5 +2,5 @@
 source "https://rubygems.org"
 
 group :development do
-  gem 'travis', '>= 1.8.0'
+  gem 'travis', '>= 1.8'
 end
