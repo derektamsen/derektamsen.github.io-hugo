@@ -7,7 +7,7 @@ This is the source for https://www.devopsderek.com.
 ### New Article
 Create a new article run:
 ```
-hugo new post/$(date +%Y-%m-%d)-article-title.md
+hugo new posts/$(date +%Y-%m-%d)-article-title.md
 ```
 
 ## Setup

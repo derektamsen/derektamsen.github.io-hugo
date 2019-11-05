@@ -1,0 +1,10 @@
+{{ define "main"}}
+    <main id="main">
+      <div>
+       <h1 id="post-title">{{ .Site.Params.pageNotFoundTitle }}</h1>
+        <div post-content>
+            <a href="{{ "/" | relURL }}">Home</a>
+        </div>
+      </div>
+    </main>
+{{ end }}
