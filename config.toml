@@ -1,47 +1,58 @@
-baseurl = "https://www.devopsderek.com/"
+baseurl = "/"
 languageCode = "en-us"
 title = "devops Derek"
-disqusShortname = "devopsderek"
-theme = "hugo-steam-theme"
-paginate = 10
+theme = "hello-friend"
+paginate = 8
 enableRobotsTXT = true
+# Add your disqus shortname for comments
+disqusShortname = "devopsderek"
+# Enable Google Analytics be inserting your tracking code
+googleAnalytics = "UA-35931506-1"
 
 [params]
-  title = "devops Derek"
-  subtitle = "IT - Devops - Linux - /dev/urandom"
-  copyright = "Powered by [Hugo](https://gohugo.io)"
-
-  # You can choose between green, orange, red and blue.
-  themecolor = "blue"
-  # Enable Google Analytics be inserting your tracking code
-  googleAnalytics = "UA-35931506-1"
-
-  # To provide some metadata for search engines and the about section in the footer
-  # feel free to add a few information about you and your website.
-  name = "Derek Tamsen"
-  bio = "I’m a nerd who enjoys the inner workings of devops."
-  location = "San Francisco, CA"
-  twitter = "derektamsen"
-  github = "derektamsen"
-  linkedin = "derektamsen"
-
-  # Enable a comment system
-  # You can choose between Disqus or Google Plus by setting comments
-  # to disqus or googleplus. For using Disqus you need to enter your
-  # shortname in disqusShortname at the top of the configs.
-  comments = "disqus"
-
-  # Customize or translate the strings
-  keepReadingStr = "Keep reading"
-  backtotopStr = "Back to top"
-  shareStr = "Share"
-  pageNotFoundTitle = "404 - Page not found"
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "light"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 3
+  # Show reading time in minutes for posts
+  showReadingTime = false
+  # 404 page text
+  pageNotFoundTitle = "Page not found"
 
 [permalinks]
   # Optional. Change the permalink format for the 'post' content type.
   # The format shown here is the same one Jekyll/Octopress uses by default.
-  post = "/blog/:year/:month/:day/:title/"
+  posts = "/blog/:year/:month/:day/:title/"
 
-[indexes]
-  # Optional. Use if you want tags and lists.
-  tag = "tags"
+[languages]
+  [languages.en]
+    title = "devops Derek"
+    subtitle = "IT - Devops - Linux - /dev/urandom"
+    keywords = "it,devops,linux,cloud,kubernetes"
+    copyright = "Derek Tamsen"
+    menuMore = "Show more"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+    dateFormatSingle = "2006-01-02"
+    dateFormatList = "2006-01-02"
+
+    [languages.en.params.logo]
+      logoText = "devops Derek - /dev/urandom"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    # [languages.en.menu]
+    #   [[languages.en.menu.main]]
+    #     identifier = "feed"
+    #     name = "Feed"
+    #     url = "/index.xml"
+    #     weight = -50

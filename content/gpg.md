@@ -7,7 +7,8 @@ image = ""
 menu = "main"
 share = false
 tags = ["encryption", "security", "gpg", "keybase"]
-title = "Keybase and GPG"
+title = "GPG"
+weight = -100
 hide = "true"
 
 +++
