@@ -1,12 +1,10 @@
 +++
-categories = []
 date = "2012-11-11T00:17:00-08:00"
 description = "About Me"
 keywords = ["me", "about"]
 draft = false
 title = "About"
 comments = false
-share = false
 menu = "main"
 weight = -100
 hide = "true"

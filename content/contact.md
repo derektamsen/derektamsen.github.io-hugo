@@ -1,12 +1,10 @@
 +++
-categories = []
 date = "2013-05-06T19:50:00-08:00"
 description = "How to contact me"
 keywords = ["contact"]
 draft = false
 title = "Contact"
 comments = false
-share = false
 menu = "main"
 weight = -100
 hide = "true"

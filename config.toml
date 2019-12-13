@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "devops Derek"
-theme = "hello-friend"
+theme = "terminal"
 paginate = 8
 enableRobotsTXT = true
 # Add your disqus shortname for comments
@@ -12,12 +12,17 @@ googleAnalytics = "UA-35931506-1"
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
-  # "light" or "dark"
-  defaultTheme = "light"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "blue"
+  # show selector to switch language
+  showLanguageSelector = false
+  # set theme to full screen width
+  fullWidthTheme = false
+  # center theme with default width
+  centerTheme = false
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 3
-  # Show reading time in minutes for posts
-  showReadingTime = false
+  favicon = "img/favicon.png"
   # 404 page text
   pageNotFoundTitle = "Page not found"
 
@@ -28,6 +33,7 @@ googleAnalytics = "UA-35931506-1"
 
 [languages]
   [languages.en]
+    languageName = "English"
     title = "devops Derek"
     subtitle = "IT - Devops - Linux - /dev/urandom"
     keywords = "it,devops,linux,cloud,kubernetes"
@@ -45,14 +51,3 @@ googleAnalytics = "UA-35931506-1"
     [languages.en.params.logo]
       logoText = "devops Derek - /dev/urandom"
       logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
-
-    # [languages.en.menu]
-    #   [[languages.en.menu.main]]
-    #     identifier = "feed"
-    #     name = "Feed"
-    #     url = "/index.xml"
-    #     weight = -50
