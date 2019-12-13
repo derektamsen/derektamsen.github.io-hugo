@@ -1,4 +1,5 @@
 +++
+author = "Derek Tamsen"
 date = "2013-03-10T15:43:00-08:00"
 draft = false
 tags = ["Mac OS X", "man", "preview"]
@@ -64,4 +65,4 @@ pman 2 chroot
 pman ls
 ```
 
-{{% figure src="/img/pman_ls.png" title="pman example with ls" %}}
+{{< image src="/img/pman_ls.png" title="pman example with ls" >}}

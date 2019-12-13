@@ -4,10 +4,7 @@ date = "2017-10-15T16:43:00-07:00"
 draft = false
 description = "Lenovo packages its UEFI firmware updater as either a Windows installable package or a bootable CD image. The bootable image is great for those running Linux on their systems. However, if you do not have an external CD drive or do not want to burn a CD, the update process takes a few more steps. Fortunately, the updater can be extracted from the CD image and written to a USB drive with Linux."
 tags = ["linux","thinkpad","firmware"]
-image = ""
 comments = true	# set false to hide Disqus
-share = true	# set false to hide share buttons
-menu= ""		# set "main" to add this content to the main menu
 author = "Derek Tamsen"
 +++
 Lenovo packages its UEFI firmware updater as either a Windows installable package or a bootable CD image. The bootable image is great for those running Linux on their systems. However, if you do not have an external CD drive or do not want to burn a CD, the update process takes a few more steps. Fortunately, the updater can be extracted from the CD image and written to a USB drive with Linux.
