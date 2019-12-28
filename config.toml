@@ -19,7 +19,7 @@ googleAnalytics = "UA-35931506-1"
   # set theme to full screen width
   fullWidthTheme = false
   # center theme with default width
-  centerTheme = false
+  centerTheme = true
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 3
   favicon = "img/favicon.png"
@@ -37,7 +37,7 @@ googleAnalytics = "UA-35931506-1"
     title = "devops Derek"
     subtitle = "IT - Devops - Linux - /dev/urandom"
     keywords = "it,devops,linux,cloud,kubernetes"
-    copyright = "Derek Tamsen"
+    copyright = 'This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.devopsderek.com/" property="cc:attributionName" rel="cc:attributionURL">Derek Tamsen</a> is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
