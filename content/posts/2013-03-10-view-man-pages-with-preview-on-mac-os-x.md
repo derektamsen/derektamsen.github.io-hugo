@@ -65,4 +65,4 @@ pman 2 chroot
 pman ls
 ```
 
-{{< image src="/img/pman_ls.png" title="pman example with ls" >}}
+![pman example with ls](/img/pman_ls.png)
