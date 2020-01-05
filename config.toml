@@ -1,4 +1,4 @@
-baseurl = "/"
+baseURL = "/"
 languageCode = "en-us"
 title = "devops Derek"
 theme = "terminal"
