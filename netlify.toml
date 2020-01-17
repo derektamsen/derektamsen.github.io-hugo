@@ -1,2 +1,33 @@
 [build.environment]
   HUGO_VERSION = "0.62.2"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    cache-control = '''
+    max-age=7200'''
+
+[[headers]]
+  for = "/*.jpeg"
+  [headers.values]
+    cache-control = '''
+    max-age=7200'''
+
+[[headers]]
+  for = "/*.gif"
+  [headers.values]
+    cache-control = '''
+    max-age=7200'''
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    cache-control = '''
+    max-age=7200'''
