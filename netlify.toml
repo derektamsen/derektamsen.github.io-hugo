@@ -31,3 +31,9 @@
   [headers.values]
     cache-control = '''
     max-age=7200'''
+
+[[redirects]]
+  from = "https://devopsderek.netlify.com/*"
+  to = "https://www.devopsderek.com/:splat"
+  status = 301
+  force = true
