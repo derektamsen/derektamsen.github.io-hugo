@@ -1,51 +1,24 @@
-[![Build Status](https://travis-ci.org/derektamsen/derektamsen.github.io-hugo.svg?branch=master)](https://travis-ci.org/derektamsen/derektamsen.github.io-hugo)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b367bd4-26af-4c2e-8703-48a3530344a8/deploy-status)](https://app.netlify.com/sites/devopsderek/deploys)
 
 # Devops Derek Source
+
 This is the source for https://www.devopsderek.com.
 
 ## Content
+
 ### New Article
+
 Create a new article run:
-```
+
+```bash
 hugo new posts/$(date +%Y-%m-%d)-article-title.md
 ```
 
-## Setup
-- Install latest hugo from https://github.com/spf13/hugo/releases:
-  `sudo apt-get install hugo`
-- Install pygments to support highlighting:
-  `sudo apt install python3-pygments`
+## Local Development Setup
 
-## Automatic Deploy
-Travis-ci should automatically deploy the static files upon successfully merging
-to the master branch.
+- Install latest [hugo](https://github.com/spf13/hugo/releases) with:
+  `sudo snap install hugo`
 
-## Manual Deployment Setup
-- Install and setup Google Firebase.
-  `npm install -g firebase-tools`
-- Login to Firebase:
-  `firebase login`
+## Deploy
 
-## Manually Deploying
-Before manually deploying you will need to follow the setup process for the Google Firebase Client.
-
-`./deploy`
-
-## Generate and Encrypt Firebase Deployment Token for Travis
-In order to encrypt the firebase deployment token for Travis we will need to install
-the travis CLI tools.
-
-https://docs.travis-ci.com/user/encrypting-files/#Manual-Encryption
-
-Install and login to travis:
-```
-gem install bundler
-bundle install --with development
-travis login
-```
-
-Generate and encrypt the firebase token for use with travis:
-```
-firebase login:ci
-travis encrypt "<super_secret_token_from_loginci>" --add deploy.token
-```
+Netlify will automatically deploy this site. PR builds are enabled and will be updated when changes are pushed to the PR branch. Production is deployed automatically once a PR is merged.
