@@ -16,7 +16,7 @@ footnoteReturnLinkContents = "^"
 [permalinks]
   # Optional. Change the permalink format for the 'post' content type.
   # The format shown here is the same one Jekyll/Octopress uses by default.
-  posts = "/blog/:year/:month/:day/:title/"
+  post = "/blog/:year/:month/:day/:title/"
 
 [[params.nav]]
   identifier = "about"
