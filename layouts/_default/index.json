@@ -1,8 +1,0 @@
-{{- $.Scratch.Add "index" slice -}}
-{{- $section := where .Site.Pages "Type" "posts" }}
-{{- range $section -}}
-  {{- if or (and (not .Draft)) .IsHome -}}
-    {{- $.Scratch.Add "index" (dict "url" .RelPermalink "title" .Title "content" (.Content | plainify))}}
-  {{- end -}}
-{{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}

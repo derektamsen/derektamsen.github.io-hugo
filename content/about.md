@@ -4,11 +4,10 @@ description = "About Me"
 keywords = ["me", "about"]
 draft = false
 title = "About"
-comments = false
+disable_comments = true
 menu = "main"
 weight = -100
 hide = "true"
-
 +++
 
 ## devops Derek

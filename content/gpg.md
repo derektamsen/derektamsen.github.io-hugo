@@ -1,6 +1,6 @@
 +++
 author = "Derek Tamsen"
-comments = false
+disable_comments = true
 date = "2016-01-28T02:35:58-08:00"
 draft = false
 menu = "main"
@@ -8,7 +8,6 @@ tags = ["encryption", "security", "gpg", "keybase"]
 title = "GPG"
 weight = -100
 hide = "true"
-
 +++
 
 If you use [Keybase](https://keybase.io) you can easily sign or encrypt things

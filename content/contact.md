@@ -4,11 +4,10 @@ description = "How to contact me"
 keywords = ["contact"]
 draft = false
 title = "Contact"
-comments = false
+disable_comments = true
 menu = "main"
 weight = -100
 hide = "true"
-
 +++
 
 ## Me

@@ -6,7 +6,6 @@ draft = false
 tags = ["vagrant", "rsync"]
 title = "Publish Vagrant Boxes with rsync"
 description = "The built in `vagrant push` command allows you to post your boxes publicly to Atlas. However, what if you want to publish boxes to an internal or private server over `ssh`?"
-
 +++
 
 The built in `vagrant push` command allows you to post your boxes publicly to [Atlas](https://atlas.hashicorp.com/boxes/search). However, what if you want to publish boxes to an internal or private server over `ssh`?
@@ -18,7 +17,7 @@ Local-Exec enables us to write a simple script to publish boxes with rsync or sc
 Simply add the following example to you project's `Vagrantfile`:
 ```ruby
 config.push.define "local-exec" do |push|
-  push.inline = <<-UPLOAD
+  push.inline: <<-UPLOAD
     rsync -Pav tmp/*.box user@boxhost.example.com:/var/www/boxes/
   UPLOAD
 end
