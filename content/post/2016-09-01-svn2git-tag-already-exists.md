@@ -6,7 +6,6 @@ draft = false
 tags = ["svn", "subversion", "git", "svn2git", "vcs"]
 title = "svn2git: Tag Already Exists"
 description = "If you find yourself migrating a repository from subversion to git you may run into a couple issues. One common issue I ran into was where an engineer updated a tag. When converting a repository with a modified tag, `svn2git` will stop and return an error message stating that a duplicate tag is present."
-
 +++
 
 If you find yourself migrating a repository from subversion to git you may run into a couple issues. One common issue I ran into was where an engineer updated a tag. When converting a repository with a modified tag, `svn2git`[^svn2gitrepo] will stop and return an error message stating that a duplicate tag is present.

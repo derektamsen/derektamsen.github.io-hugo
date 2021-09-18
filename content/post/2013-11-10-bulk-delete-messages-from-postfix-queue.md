@@ -5,7 +5,6 @@ draft = false
 tags = ["smtp", "postfix", "linux"]
 title = "Bulk Delete Messages from Postfix Queue"
 description = "Have you have ever had a script or application accidentally send thousands of messages through your postfix queue? With this simple tip you no longer need to wait for those messages to be processed through the Postfix queue. This one liner is also helpful if you have a lot of differed messages in the Postfix queue you would like to discard."
-
 +++
 
 Have you have ever had a script or application accidentally send thousands of messages through your postfix queue? With this simple tip you no longer need to wait for those messages to be processed through the Postfix queue. This one liner is also helpful if you have a lot of differed messages in the Postfix queue you would like to discard.
