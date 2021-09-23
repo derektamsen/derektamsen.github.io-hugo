@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://www.devopsderek.com/"
 languageCode = "en-us"
 title = "devops Derek"
 theme = "harbor"

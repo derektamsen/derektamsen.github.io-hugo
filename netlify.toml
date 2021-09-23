@@ -1,6 +1,9 @@
 [build.environment]
   HUGO_VERSION = "0.88.1"
 
+[context.deploy-preview]
+  command = "hugo -b $DEPLOY_PRIME_URL/"
+
 [[headers]]
   for = "/*"
   [headers.values]
