@@ -15,11 +15,17 @@
 	// "features": {},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [1313]
+	"forwardPorts": [1313],
 
 	// Configure tool-specific properties.
 	// "customizations": {},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
+
+	// copy additional files into the dev container
+	"mounts": [
+		// ~/.gitconfig.local:/home/vscode/.gitconfig.local
+		"source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig.local,target=/home/vscode/.gitconfig.local,type=bind,consistency=cached,readonly"
+	]
 }
