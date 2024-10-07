@@ -1,11 +1,17 @@
-+++
-author = "Derek Tamsen"
-date = "2013-03-10T15:43:00-08:00"
-draft = false
-tags = ["Mac OS X", "man", "preview"]
-title = "View Man Pages with Preview on Mac OS X"
-description = "I am always looking for better ways to integrate the unix components into Mac OS X. I recently came across a great way to connect the `man` pages to a more visual mode in OS X."
-+++
+---
+title: "View Man Pages with Preview on Mac OS X"
+date: "2013-03-10T15:43:00-08:00"
+draft: false
+summary: "I am always looking for better ways to integrate the unix components into Mac OS X. I recently came across a great way to connect the `man` pages to a more visual mode in OS X."
+description: "I am always looking for better ways to integrate the unix components into Mac OS X. I recently came across a great way to connect the `man` pages to a more visual mode in OS X."
+toc: true
+readTime: true
+autonumber: false
+math: false
+tags: ["macos", "man", "preview"]
+showTags: false
+hideBackToTop: false
+---
 
 I am always looking for better ways to integrate the unix components into Mac OS X. I recently came across a great way to connect the `man` pages to a more visual mode in OS X. Sure, you could always use `xman` as a visual multi window view for the `man` pages, screen, or some other multi window handler. However, I was not impressed with the x window environment on OS X because it requires a lot of modification to leverage the fonts and the rendering engine of the OS.
 
@@ -64,4 +70,4 @@ pman 2 chroot
 pman ls
 ```
 
-![pman example with ls](/images/pman_ls.png)
+![pman example with ls](pman_ls.png)

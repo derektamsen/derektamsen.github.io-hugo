@@ -1,11 +1,17 @@
-+++
-author = "Derek Tamsen"
-date = "2013-04-08T00:56:00-08:00"
-draft = false
-tags = ["tar", "nc", "linux", "file transfer"]
-title = "Quickly Transfer Files Between Servers"
-description = "When transferring files between systems usually `rsync` or `scp` are all that is needed. Sometimes, there are difficult edge cases. For example using `rsync` to transfer many files spread across 1000s of directories quickly. Recently, I needed to move several TB worth of files in varying size spread across 1000s of directories. I found that `rsync` spent most of the time traversing directories and not copying the data. I turned to the webs to find a better solution."
-+++
+---
+title: "Quickly Transfer Files Between Servers"
+date: "2013-04-08T00:56:00-08:00"
+draft: false
+summary: "When transferring files between systems usually `rsync` or `scp` are all that is needed. Sometimes, there are difficult edge cases. For example using `rsync` to transfer many files spread across 1000s of directories quickly. Recently, I needed to move several TB worth of files in varying size spread across 1000s of directories. I found that `rsync` spent most of the time traversing directories and not copying the data. I turned to the webs to find a better solution."
+description: "When transferring files between systems usually `rsync` or `scp` are all that is needed. Sometimes, there are difficult edge cases. For example using `rsync` to transfer many files spread across 1000s of directories quickly. Recently, I needed to move several TB worth of files in varying size spread across 1000s of directories. I found that `rsync` spent most of the time traversing directories and not copying the data. I turned to the webs to find a better solution."
+toc: true
+readTime: true
+autonumber: false
+math: false
+tags: ["tar", "nc", "linux", "file transfer"]
+showTags: false
+hideBackToTop: false
+---
 
 When transferring files between systems usually `rsync` or `scp` are all that is needed. Sometimes, there are difficult edge cases. For example using `rsync` to transfer many files spread across 1000s of directories quickly. Recently, I needed to move several TB worth of files in varying size spread across 1000s of directories. I found that `rsync` spent most of the time traversing directories and not copying the data. I turned to the webs to find a better solution. The excellent solution I found had an old school feel using `tar` and netcat (`nc`).
 

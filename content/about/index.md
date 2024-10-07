@@ -1,14 +1,18 @@
-+++
-date = "2012-11-11T00:17:00-08:00"
-description = "About Me"
-keywords = ["me", "about"]
-draft = false
-title = "About"
-disable_comments = true
-menu = "main"
-weight = -100
-hide = "true"
-+++
+---
+title: "About"
+date: "2012-11-11T00:17:00-08:00"
+draft: false
+summary: "About Me"
+description: "About Me"
+toc: false
+readTime: true
+autonumber: false
+math: false
+tags: ["me", "about"]
+showTags: false
+hideBackToTop: false
+disable_comments: true
+---
 
 ## devops Derek
 devops Derek is a place to keep notes related to things I am working on. It makes it easier to later `grep -iR something_I_did_in_the_past ./`. Hopefully, it is also useful to others.
