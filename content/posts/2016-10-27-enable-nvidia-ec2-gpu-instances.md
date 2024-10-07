@@ -1,12 +1,18 @@
-+++
-author = "Derek Tamsen"
-comments = true
-date = "2016-10-27T00:39:00-07:00"
-description = "Recently, I needed to use GPU instances with a custom AMI on EC2. The image I needed to use did not contain the necessary NVIDIA and CUDA modules and instead contained nouveau. This posed a unique situation because normally a reboot is necessary after installing the official module. However, the software I was provisioning the instances with was unable to resume after rebooting. Using this short script I was able to swap the opensource nouveau module for the NVIDIA module without rebooting the instance."
-draft = false
-tags = ["aws", "ec2", "linux", "centos", "nvidia"]
-title = "Enable NVIDIA modules in EC2 GPU Instances without Rebooting"
-+++
+---
+title: "Enable NVIDIA modules in EC2 GPU Instances without Rebooting"
+date: "2016-10-27T00:39:00-07:00"
+draft: false
+summary: "Recently, I needed to use GPU instances with a custom AMI on EC2. The image I needed to use did not contain the necessary NVIDIA and CUDA modules and instead contained nouveau. This posed a unique situation because normally a reboot is necessary after installing the official module. However, the software I was provisioning the instances with was unable to resume after rebooting. Using this short script I was able to swap the opensource nouveau module for the NVIDIA module without rebooting the instance."
+description: "Recently, I needed to use GPU instances with a custom AMI on EC2. The image I needed to use did not contain the necessary NVIDIA and CUDA modules and instead contained nouveau. This posed a unique situation because normally a reboot is necessary after installing the official module. However, the software I was provisioning the instances with was unable to resume after rebooting. Using this short script I was able to swap the opensource nouveau module for the NVIDIA module without rebooting the instance."
+toc: true
+readTime: true
+autonumber: false
+math: false
+tags: ["aws", "ec2", "linux", "centos", "nvidia"]
+showTags: false
+hideBackToTop: false
+---
+
 Recently, I needed to use GPU instances with a custom AMI[^ami] on EC2. The image I needed to use did not contain the necessary NVIDIA and CUDA[^cuda] modules and instead contained nouveau. This posed a unique situation because normally a reboot is necessary after installing the official module. However, the software I was provisioning the instances with was unable to resume after rebooting. Using this short script I was able to swap the opensource [nouveau](https://nouveau.freedesktop.org/wiki/) module for the NVIDIA module without rebooting the instance.
 
 Using the script below and a kernel boot parameter the proper modules will be installed without requiring a reboot. This will work on all AWS GPU instance types including g2.2xlarge, g2.8xlarge, and p2.16xlarge. This script can be run in the [user-data](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html#instancedata-add-user-data) portion of [cloud-init](https://cloudinit.readthedocs.io/en/latest/) during instance spin-up.

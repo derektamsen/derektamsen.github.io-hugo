@@ -1,17 +1,18 @@
-+++
-author = "Derek Tamsen"
-disable_comments = true
-date = "2016-01-28T02:35:58-08:00"
-draft = false
-menu = "main"
-tags = ["encryption", "security", "gpg", "keybase"]
-title = "GPG"
-weight = -100
-hide = "true"
-+++
-
-If you use [Keybase](https://keybase.io) you can easily sign or encrypt things
-to me. The details are on my [Keybase profile page](https://keybase.io/derektamsen).
+---
+title: "GPG"
+date: "2016-01-28T02:35:58-08:00"
+draft: false
+summary: "My gpg public key"
+description: "My gpg public key"
+toc: false
+readTime: true
+autonumber: false
+math: false
+tags: ["encryption", "security", "gpg", "keybase"]
+showTags: false
+hideBackToTop: false
+disable_comments: true
+---
 
 If you would like to send me signed or encrypted stuff using
 [GPG](https://www.gnupg.org/), below is my public key. You can also use `gpg` to

@@ -1,11 +1,16 @@
-+++
-author = "Derek Tamsen"
-date = "2012-11-13T23:53:00-08:00"
-draft = false
-tags = ["postgres"]
-title = "List and Disconnect PostgreSQL DB Sessions"
-description = "Some times it is necessary to terminate a PostgreSQL query and connection. This can be very helpful when you have a run away command or script. It can also be helpful if your application has submitted a query to the backend that has caused everything to grind to a halt. Fortunately, postgres comes to the rescue and provides a few helpful commands that will allow you to cancel the query from the database and optionally terminate the user or application's connection."
-+++
+---
+title: "List and Disconnect PostgreSQL DB Sessions"
+date: "2012-11-13T23:53:00-08:00"
+summary: "Some times it is necessary to terminate a PostgreSQL query and connection. This can be very helpful when you have a run away command or script. It can also be helpful if your application has submitted a query to the backend that has caused everything to grind to a halt. Fortunately, postgres comes to the rescue and provides a few helpful commands that will allow you to cancel the query from the database and optionally terminate the user or application's connection."
+description: "Some times it is necessary to terminate a PostgreSQL query and connection. This can be very helpful when you have a run away command or script. It can also be helpful if your application has submitted a query to the backend that has caused everything to grind to a halt. Fortunately, postgres comes to the rescue and provides a few helpful commands that will allow you to cancel the query from the database and optionally terminate the user or application's connection."
+toc: true
+readTime: true
+autonumber: false
+math: false
+tags: ["postgres"]
+showTags: false
+hideBackToTop: false
+---
 
 Some times it is necessary to terminate a PostgreSQL query and connection. This can be very helpful when you have a run away command or script. It can also be helpful if your application has submitted a query to the backend that has caused everything to grind to a halt. Fortunately, postgres comes to the rescue and provides a few helpful commands that will allow you to cancel the query from the database and optionally terminate the user or application's connection.
 

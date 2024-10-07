@@ -1,0 +1,89 @@
+baseURL = 'https://www.devopsderek.com/'
+languageCode = 'en-us'
+title = 'devops Derek'
+theme = 'typo'
+
+# Google analytics code
+googleAnalytics = 'G-FLLW615HYM'
+
+[taxonomies]
+  tag = 'tags'
+
+[permalinks]
+  [permalinks.page]
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    posts = '/posts/:year/:month/:day/:title/'
+  [permalinks.section]
+    posts = '/posts/'
+
+[params]
+  # Meta description
+  description = 'A Tech Blog'
+
+  # Appearance settings
+  theme = 'auto'
+  colorPalette = 'default'
+  hideHeader = false
+
+  # Intro on main page, content is markdown
+  homeIntroTitle = 'Welcome!'
+  homeIntroContent = """
+  devops Derek is a place to keep notes related to things I am working on. It
+  makes it easier to later `grep -iR something_I_did_in_the_past ./`. Hopefully,
+  it is also useful to others.
+  """
+
+  # Page footer
+  showFooter = true
+  footerContent = """
+  **Derek Tamsen** | This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) | _Powered by [Hugo](https://gohugo.io) with theme by [tomfran/typo](https://github.com/tomfran/typo)_
+  """
+
+  # Collection to display on home
+  homeCollectionTitle = 'Posts'
+  homeCollection = 'posts'
+
+  # Lists parameters
+  paginationSize = 100
+  listSummaries = true
+  listDateFormat = 'Jan 2, 2006'
+
+  # Breadcrumbs
+  breadcrumbs = true
+
+  # Social icons
+  [[params.social]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/derektamsen/'
+
+  [[params.social]]
+    name = 'github'
+    url = 'https://github.com/derektamsen'
+
+  # Main menu pages
+  [[params.menu]]
+    name = 'home'
+    url = '/'
+
+  [[params.menu]]
+    name = 'posts'
+    url = '/posts'
+
+  [[params.menu]]
+    name = 'about'
+    url = '/about'
+
+# Syntax highligth on code blocks
+[markup]
+  [markup.highlight]
+  style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = 'user/repo'
+repoid = 'repoId'
+category = 'General'
+categoryid = 'categoryId'
+mapping = 'pathname'
+theme = 'preferred_color_scheme'

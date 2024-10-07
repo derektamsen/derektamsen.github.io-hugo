@@ -1,12 +1,14 @@
-+++
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: "{{ .Date }}"
+---
+title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+date: '{{ .Date }}'
 draft: true
+summary: "Post description"
 description: "Post description"
-tags: ["tag1","tag2"]
-disable_comments = false	# set false to hide Disqus
-menu: ""		# set "main" to add this content to the main menu
-author: "Derek Tamsen"
 toc: true
-backtotop: false
-+++
+readTime: true
+autonumber: false
+math: false
+tags: ["tag1", "tag2"]
+showTags: false
+hideBackToTop: false
+---

@@ -1,12 +1,18 @@
-+++
-title = "Updating Thinkpad Firmware with Linux"
-date = "2017-10-15T16:43:00-07:00"
-draft = false
-description = "Lenovo packages its UEFI firmware updater as either a Windows installable package or a bootable CD image. The bootable image is great for those running Linux on their systems. However, if you do not have an external CD drive or do not want to burn a CD, the update process takes a few more steps. Fortunately, the updater can be extracted from the CD image and written to a USB drive with Linux."
-tags = ["linux","thinkpad","firmware"]
-comments = true	# set false to hide Disqus
-author = "Derek Tamsen"
-+++
+---
+title: "Updating Thinkpad Firmware with Linux"
+date: "2017-10-15T16:43:00-07:00"
+draft: false
+summary: "Lenovo packages its UEFI firmware updater as either a Windows installable package or a bootable CD image. The bootable image is great for those running Linux on their systems. However, if you do not have an external CD drive or do not want to burn a CD, the update process takes a few more steps. Fortunately, the updater can be extracted from the CD image and written to a USB drive with Linux."
+description: "Lenovo packages its UEFI firmware updater as either a Windows installable package or a bootable CD image. The bootable image is great for those running Linux on their systems. However, if you do not have an external CD drive or do not want to burn a CD, the update process takes a few more steps. Fortunately, the updater can be extracted from the CD image and written to a USB drive with Linux."
+toc: true
+readTime: true
+autonumber: false
+math: false
+tags: ["linux", "thinkpad", "firmware"]
+showTags: false
+hideBackToTop: false
+---
+
 Lenovo packages its UEFI firmware updater as either a Windows installable package or a bootable CD image. The bootable image is great for those running Linux on their systems. However, if you do not have an external CD drive or do not want to burn a CD, the update process takes a few more steps. Fortunately, the updater can be extracted from the CD image and written to a USB drive with Linux.
 
 This method should work with most of Lenovo's bootable CD images.

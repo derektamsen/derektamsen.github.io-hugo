@@ -1,14 +1,18 @@
-+++
-date = "2013-05-06T19:50:00-08:00"
-description = "How to contact me"
-keywords = ["contact"]
-draft = false
-title = "Contact"
-disable_comments = true
-menu = "main"
-weight = -100
-hide = "true"
-+++
+---
+title: "Contact"
+date: "2013-05-06T19:50:00-08:00"
+draft: false
+summary: "How to contact me"
+description: "How to contact me"
+toc: false
+readTime: true
+autonumber: false
+math: false
+tags: ["contact"]
+showTags: false
+hideBackToTop: false
+disable_comments: true
+---
 
 ## Me
 If you have any questions you want to ask me feel free to open a [new issue on my github feedback repo](https://github.com/derektamsen/feedback "derektamsen/feedback").

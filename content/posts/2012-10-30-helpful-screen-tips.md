@@ -1,11 +1,17 @@
-+++
-author = "Derek Tamsen"
-date = "2012-10-30T00:08:00-08:00"
-draft = false
-tags = ["screen", "linux"]
-title = "Helpful Screen Tips"
-description = "Screen is a great command to know when working on linux and unix systems. Screen allows long commands to stay running if you become disconnected from a server or if you want to disconnect."
-+++
+---
+title: "Helpful Screen Tips"
+date: "2012-10-30T00:08:00-08:00"
+draft: false
+summary: "Screen is a great command to know when working on linux and unix systems. Screen allows long commands to stay running if you become disconnected from a server or if you want to disconnect."
+description: "Screen is a great command to know when working on linux and unix systems. Screen allows long commands to stay running if you become disconnected from a server or if you want to disconnect."
+toc: true
+readTime: true
+autonumber: false
+math: false
+tags: ["screen", "linux"]
+showTags: false
+hideBackToTop: false
+---
 
 Screen is a great command to know when working on linux and unix systems. Screen allows long commands to stay running if you become disconnected from a server or if you want to disconnect.
 

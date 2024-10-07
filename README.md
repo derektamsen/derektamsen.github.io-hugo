@@ -9,7 +9,7 @@ This is the source for https://www.devopsderek.com.
 Create a new article run:
 
 ```bash
-hugo new posts/$(date +%Y-%m-%d)-article-title.md
+hugo new content/posts/$(date +%Y-%m-%d)-article-title.md
 ```
 
 ## Local Development Setup

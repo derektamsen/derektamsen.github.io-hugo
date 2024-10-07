@@ -1,12 +1,17 @@
-+++
-author = "Derek Tamsen"
-comments = true
-date = "2016-09-01T00:10:42-07:00"
-draft = false
-tags = ["svn", "subversion", "git", "svn2git", "vcs"]
-title = "svn2git: Tag Already Exists"
-description = "If you find yourself migrating a repository from subversion to git you may run into a couple issues. One common issue I ran into was where an engineer updated a tag. When converting a repository with a modified tag, `svn2git` will stop and return an error message stating that a duplicate tag is present."
-+++
+---
+title: "svn2git: Tag Already Exists"
+date: "2016-09-01T00:10:42-07:00"
+draft: false
+summary: "If you find yourself migrating a repository from subversion to git you may run into a couple issues. One common issue I ran into was where an engineer updated a tag. When converting a repository with a modified tag, `svn2git` will stop and return an error message stating that a duplicate tag is present."
+description: "If you find yourself migrating a repository from subversion to git you may run into a couple issues. One common issue I ran into was where an engineer updated a tag. When converting a repository with a modified tag, `svn2git` will stop and return an error message stating that a duplicate tag is present."
+toc: true
+readTime: true
+autonumber: false
+math: false
+tags: ["svn", "subversion", "git", "svn2git", "vcs"]
+showTags: false
+hideBackToTop: false
+---
 
 If you find yourself migrating a repository from subversion to git you may run into a couple issues. One common issue I ran into was where an engineer updated a tag. When converting a repository with a modified tag, `svn2git`[^svn2gitrepo] will stop and return an error message stating that a duplicate tag is present.
 
