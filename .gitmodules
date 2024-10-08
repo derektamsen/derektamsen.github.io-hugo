@@ -1,15 +1,3 @@
-[submodule "themes/hugo-steam-theme"]
-	path = themes/hugo-steam-theme
-	url = https://github.com/digitalcraftsman/hugo-steam-theme.git
-[submodule "themes/hello-friend"]
-	path = themes/hello-friend
-	url = https://github.com/panr/hugo-theme-hello-friend.git
-[submodule "themes/terminal"]
-	path = themes/terminal
-	url = https://github.com/panr/hugo-theme-terminal.git
-[submodule "themes/harbor"]
-	path = themes/harbor
-	url = https://github.com/matsuyoshi30/harbor.git
 [submodule "themes/typo"]
 	path = themes/typo
 	url = https://github.com/tomfran/typo.git
