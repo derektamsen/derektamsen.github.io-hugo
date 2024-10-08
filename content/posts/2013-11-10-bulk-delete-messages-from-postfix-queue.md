@@ -13,15 +13,17 @@ showTags: false
 hideBackToTop: false
 ---
 
-Have you have ever had a script or application accidentally send thousands of messages through your postfix queue? With this simple tip you no longer need to wait for those messages to be processed through the Postfix queue. This one liner is also helpful if you have a lot of differed messages in the Postfix queue you would like to discard.
-
 You can simply use standard linux tools to awk through your Postfix queue and drop those unwanted messages. You will need access to `sudo`, `postqueue`, and `postsuper` to list the queue and drop the unwanted messages from postfix.
 
 ## Dropping Messages To/From a Specific Address
 _The usual caution: This will permanently drop the filtered messages from you postfix queue. You may want to see the output before piping it to postsuper._
 
 ```sh
-sudo postqueue -p | grep 'someaddress@example.com' | cut -d ' ' -f1 | tr -d '*' | sudo postsuper -d -
+sudo postqueue -p |\
+  grep 'someaddress@example.com' |\
+  cut -d ' ' -f1 |\
+  tr -d '*' |\
+  sudo postsuper -d -
 ```
 
 ### Command Overview

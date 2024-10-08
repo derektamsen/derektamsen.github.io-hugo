@@ -17,6 +17,7 @@ Recently, I needed to use GPU instances with a custom AMI[^ami] on EC2. The imag
 
 Using the script below and a kernel boot parameter the proper modules will be installed without requiring a reboot. This will work on all AWS GPU instance types including g2.2xlarge, g2.8xlarge, and p2.16xlarge. This script can be run in the [user-data](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html#instancedata-add-user-data) portion of [cloud-init](https://cloudinit.readthedocs.io/en/latest/) during instance spin-up.
 
+## Script to Enable NVIDIA Modules
 _This was written and tested for CentOS 6 but can be adapted to other OSes._
 
 ```shell
@@ -26,7 +27,8 @@ sudo yum groupinstall -y 'Development tools'
 sudo yum install -y kernel-devel-$(uname -r) dkms
 
 # download the nvidia module and extract it
-wget --quiet 'http://us.download.nvidia.com/XFree86/Linux-x86_64/367.35/NVIDIA-Linux-x86_64-367.35.run' -O 'NVIDIA-Linux-x86_64-367.35.run'
+wget --quiet 'http://us.download.nvidia.com/XFree86/Linux-x86_64/367.35/NVIDIA-Linux-x86_64-367.35.run' \
+  -O 'NVIDIA-Linux-x86_64-367.35.run'
 chmod +x NVIDIA-Linux-x86_64-*.run
 
 # unbind the vtconsole from the nouveau module
@@ -68,6 +70,7 @@ sudo yum clean all
 sudo yum install -y cuda
 ```
 
+## What is the Script Doing?
 The above does the following:
 
   1. Installs items necessary to build the NVIDIA modules.

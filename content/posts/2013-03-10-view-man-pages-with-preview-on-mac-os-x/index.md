@@ -13,10 +13,7 @@ showTags: false
 hideBackToTop: false
 ---
 
-I am always looking for better ways to integrate the unix components into Mac OS X. I recently came across a great way to connect the `man` pages to a more visual mode in OS X. Sure, you could always use `xman` as a visual multi window view for the `man` pages, screen, or some other multi window handler. However, I was not impressed with the x window environment on OS X because it requires a lot of modification to leverage the fonts and the rendering engine of the OS.
-
 I settled on a solution that uses preview. Preview provides an easy solution to get great fonts and rendering native to the OS without much work from a shell script. Preview also allows for other functionality like bookmarks, highlighting, pagination, saving, etc.
-
 
 The script is rather simple. It is essential opening the `man` page in the background and piping the pages to `groff`. `Groff` then outputs a postscript file of the `man` page which is then opened with preview. The script goes in your `~/.bash_profile` as function that you call as a program in place of `man`. I have modified the original function slightly so it supports passing in the `man` page section as well.
 
@@ -25,13 +22,13 @@ The default usage of `pman` will mirror `man`. If you only pass it one argument 
 I would like to give [Macworld](http://www.macworld.com/article/1054155/manpages.html "Open Unix manual pages in OS X 10.4's Preview") credit for this as that is where I originally found the tip.
 
 ## Editing your bash profile and adding the function
-- Edit your `~/.bash_profile`.
+Edit your `~/.bash_profile`.
 
 ```sh
 vi ~/.bash_profile
 ```
 
-- Insert the following function someplace in your `~/.bash_profile`:
+Insert the following function someplace in your `~/.bash_profile`:
 
 ```sh
 pman() {
@@ -39,7 +36,7 @@ pman() {
 }
 ```
 
-- Source your `~/.bash_profile` to load the new function.
+Source your `~/.bash_profile` to load the new function.
 
 ```sh
 . ~/.bash_profile
@@ -50,17 +47,17 @@ Viewing man pages with preview is now as simple as using `pman` instead of `man`
 
 ## Some Examples:
 
-- View man pages for manual:
+View man pages for manual:
 ```sh
 pman man
 ```
 
-- View man pages for chroot
+View man pages for chroot
 ```sh
 pman chroot
 ```
 
-- View chroot(2)
+View chroot(2)
 ```sh
 pman 2 chroot
 ```
