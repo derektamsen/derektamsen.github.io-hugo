@@ -13,8 +13,6 @@ showTags: false
 hideBackToTop: false
 ---
 
-Screen is a great command to know when working on linux and unix systems. Screen allows long commands to stay running if you become disconnected from a server or if you want to disconnect.
-
 Screen may not be installed by default depending on what distribution you are using. In order to use it you will need to install it on the system you are working on. The installation process is usually pretty simple.
 
 ## In centos you can find it in the base repository.
@@ -43,17 +41,17 @@ $ screen -ls
 ```
 
 ### Disconnect from a session
-Once you are in a screen session you can disconnect from it and keep your existing commands running
+Once you are in a screen session you can disconnect from it and keep your existing commands running:
 
-- Press <kbd>CTRL</kbd>+<kbd>A</kbd>
-- Then press <kbd>D</kbd> for detach
+1. Press <kbd>CTRL</kbd>+<kbd>A</kbd>
+2. Then press <kbd>D</kbd> for detach
 
 ### Leaning more
 Screen is quite powerful. If you would like to learn more you can use the built-in help functions.
 
 ##### In-screen help
-- Press <kbd>CTRL</kbd>+<kbd>A</kbd>
-- Then press <kbd>?</kbd> to bring up the onscreen help menu.
+1. Press <kbd>CTRL</kbd>+<kbd>A</kbd>
+2. Then press <kbd>?</kbd> to bring up the onscreen help menu.
 
 ##### You can also view the manpages for screen
 ```sh
