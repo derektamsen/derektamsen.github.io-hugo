@@ -22,7 +22,7 @@ googleAnalytics = 'G-FLLW615HYM'
 
   # Appearance settings
   theme = 'auto'
-  colorPalette = 'default'
+  colorPalette = 'catpuccin'
   hideHeader = false
 
   # Intro on main page, content is markdown
@@ -80,10 +80,10 @@ googleAnalytics = 'G-FLLW615HYM'
 
 # Giscus comments
 [params.giscus]
-enable = false
-repo = 'user/repo'
-repoid = 'repoId'
-category = 'General'
-categoryid = 'categoryId'
+enable = true
+repo = 'derektamsen/derektamsen.github.io-hugo'
+repoid = 'MDEwOlJlcG9zaXRvcnkyOTEyNjEyMw=='
+category = 'Post Comments'
+categoryid = 'DIC_kwDOAbxt684CjJ8V'
 mapping = 'pathname'
 theme = 'preferred_color_scheme'
