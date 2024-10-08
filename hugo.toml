@@ -76,7 +76,7 @@ googleAnalytics = 'G-FLLW615HYM'
 # Syntax highligth on code blocks
 [markup]
   [markup.highlight]
-  style = 'algol'
+  style = 'catppuccin-frappe'
 
 # Giscus comments
 [params.giscus]
