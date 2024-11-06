@@ -6,6 +6,8 @@ theme = 'typo'
 # Google analytics code
 googleAnalytics = 'G-FLLW615HYM'
 
+enableRobotsTXT = true
+
 [taxonomies]
   tag = 'tags'
 
