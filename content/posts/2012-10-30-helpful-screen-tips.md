@@ -11,6 +11,7 @@ math: false
 tags: ["screen", "linux"]
 showTags: false
 hideBackToTop: false
+aliases: ["/blog/2012/10/30/helpful-screen-tips"]
 ---
 
 Screen may not be installed by default depending on what distribution you are using. In order to use it you will need to install it on the system you are working on. The installation process is usually pretty simple.

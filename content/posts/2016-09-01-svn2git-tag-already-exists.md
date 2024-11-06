@@ -11,6 +11,7 @@ math: false
 tags: ["svn", "subversion", "git", "svn2git", "vcs"]
 showTags: false
 hideBackToTop: false
+aliases: ["/blog/2016/09/01/svn2git-tag-already-exists"]
 ---
 
 Fortunately, this is an easy issue to correct. You simply need to delete the tag and rerun the conversion. This works because `svn2git`[^svn2gitrepo] is replaying the commit history from oldest to newest against the new git repository. After removing the older tag, re-running `svn2git` will apply the next tag creation.

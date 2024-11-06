@@ -11,6 +11,7 @@ math: false
 tags: ["smtp", "postfix", "linux"]
 showTags: false
 hideBackToTop: false
+aliases: ["/blog/2013/11/10/bulk-delete-messages-from-postfix-queue"]
 ---
 
 You can simply use standard linux tools to awk through your Postfix queue and drop those unwanted messages. You will need access to `sudo`, `postqueue`, and `postsuper` to list the queue and drop the unwanted messages from postfix.
