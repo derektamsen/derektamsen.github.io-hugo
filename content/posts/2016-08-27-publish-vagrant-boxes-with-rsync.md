@@ -11,6 +11,7 @@ math: false
 tags: ["vagrant", "rsync"]
 showTags: false
 hideBackToTop: false
+aliases: ["/blog/2016/08/27/publish-vagrant-boxes-with-rsync"]
 ---
 
 Fortunately, the push command can be redefined. Out of the box it is possible to use other methods that allow publishing boxes to both [Heroku](https://www.heroku.com/) and via FTP/SFTP. Vagrant also allows using a custom shell script with [local-exec](https://www.vagrantup.com/docs/push/local-exec.html) to publish your boxes.

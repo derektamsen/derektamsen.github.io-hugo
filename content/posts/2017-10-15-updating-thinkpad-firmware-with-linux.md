@@ -11,6 +11,7 @@ math: false
 tags: ["linux", "thinkpad", "firmware"]
 showTags: false
 hideBackToTop: false
+aliases: ["/blog/2017/10/15/updating-thinkpad-firmware-with-linux"]
 ---
 
 This method should work with most of Lenovo's bootable CD images.

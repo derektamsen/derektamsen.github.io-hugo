@@ -11,6 +11,7 @@ math: false
 tags: ["tar", "nc", "linux", "file transfer"]
 showTags: false
 hideBackToTop: false
+aliases: ["/blog/2013/04/08/quickly-transfer-files-between-servers"]
 ---
 
 The solution seemed too simple to work efficiently especially considering how slow `rsync` had been at transferring the files. I was quite wrong, really wrong. During my first attempt `rsync` had been using about 20% - 40% of a 1Gb network link. With `tar | nc` I was now seeing 80% - 95% usage on the 1Gb link.

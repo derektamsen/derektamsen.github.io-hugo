@@ -10,6 +10,7 @@ math: false
 tags: ["postgres"]
 showTags: false
 hideBackToTop: false
+aliases: ["/blog/2012/11/13/list-and-disconnect-postgresql-db-sessions"]
 ---
 
 *As usual please be careful and test any commands before running them in production.

@@ -11,6 +11,7 @@ math: false
 tags: ["macos", "man", "preview"]
 showTags: false
 hideBackToTop: false
+aliases: ["/blog/2013/03/10/view-man-pages-with-preview-on-mac-os-x"]
 ---
 
 I settled on a solution that uses preview. Preview provides an easy solution to get great fonts and rendering native to the OS without much work from a shell script. Preview also allows for other functionality like bookmarks, highlighting, pagination, saving, etc.
