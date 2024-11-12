@@ -68,4 +68,4 @@ pman 2 chroot
 pman ls
 ```
 
-![pman example with ls](pman_ls.png)
+![pman example with ls](./images/pman_ls.png)
