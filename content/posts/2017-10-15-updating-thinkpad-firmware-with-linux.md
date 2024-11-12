@@ -53,4 +53,4 @@ sudo dd bs=1M if='fwupdate.img' of='<device_path>'
 ```
 
 ## Update the Firmware
-Reboot your system with the USB drive attached. Press <kbd>F12</kbd> to access your system's boot menu. Then, choose the attached USB drive as the temporary boot device. Next, follow the prompts from the updater utility to update the firmware.
+Reboot your system with the USB drive attached. Press `F12` to access your system's boot menu. Then, choose the attached USB drive as the temporary boot device. Next, follow the prompts from the updater utility to update the firmware.

@@ -31,4 +31,4 @@ Sorry, last plug [view my linkedin profile](http://www.linkedin.com/in/derektams
 ### Favorite Quotes
 > Great spirits have always encountered violent opposition from mediocre minds. The mediocre mind is incapable of understanding the man who refuses to bow blindly to conventional prejudices and chooses instead to express his opinions courageously and honestly.
 >
-> -- <cite>Albert Einstein, Letter to Morris Raphael Cohen</cite>
+> -- Albert Einstein, Letter to Morris Raphael Cohen
