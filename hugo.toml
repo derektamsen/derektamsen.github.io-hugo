@@ -55,12 +55,16 @@ enableRobotsTXT = true
 
   # Social icons
   [[params.social]]
-    name = 'linkedin'
-    url = 'https://www.linkedin.com/in/derektamsen/'
+    name = 'bluesky'
+    url = 'https://bsky.app/profile/derektamsen.bsky.social'
 
   [[params.social]]
     name = 'github'
     url = 'https://github.com/derektamsen'
+
+  [[params.social]]
+    name = 'linkedin'
+    url = 'https://www.linkedin.com/in/derektamsen/'
 
   # Main menu pages
   [[params.menu]]
