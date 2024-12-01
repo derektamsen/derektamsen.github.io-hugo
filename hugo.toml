@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'devops Derek'
 theme = 'typo'
 
+copyright = 'This work is licensed under CC BY-SA 4.0'
+
 # Google analytics code
 googleAnalytics = 'G-FLLW615HYM'
 
@@ -53,6 +55,20 @@ enableRobotsTXT = true
   # Breadcrumbs
   breadcrumbs = true
 
+  # Giscus comments
+  [params.giscus]
+  enable = true
+  repo = 'derektamsen/derektamsen.github.io-hugo'
+  repoid = 'MDEwOlJlcG9zaXRvcnkyOTEyNjEyMw=='
+  category = 'Post Comments'
+  categoryid = 'DIC_kwDOAbxt684CjJ8V'
+  mapping = 'pathname'
+  theme = 'preferred_color_scheme'
+
+  [params.author]
+  email = 'dtamsen+blog@gmail.com'
+  name = 'Derek Tamsen'
+
   # Social icons
   [[params.social]]
     name = 'bluesky'
@@ -83,13 +99,3 @@ enableRobotsTXT = true
 [markup]
   [markup.highlight]
   style = 'catppuccin-frappe'
-
-# Giscus comments
-[params.giscus]
-enable = true
-repo = 'derektamsen/derektamsen.github.io-hugo'
-repoid = 'MDEwOlJlcG9zaXRvcnkyOTEyNjEyMw=='
-category = 'Post Comments'
-categoryid = 'DIC_kwDOAbxt684CjJ8V'
-mapping = 'pathname'
-theme = 'preferred_color_scheme'
