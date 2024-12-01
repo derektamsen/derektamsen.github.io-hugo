@@ -72,7 +72,7 @@ enableRobotsTXT = true
   # Social icons
   [[params.social]]
     name = 'bluesky'
-    url = 'https://bsky.app/profile/derektamsen.bsky.social'
+    url = 'https://bsky.app/profile/devopsderek.com'
 
   [[params.social]]
     name = 'github'
