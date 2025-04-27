@@ -3,9 +3,6 @@ languageCode = 'en-us'
 title = 'devops Derek'
 copyright = 'This work is licensed under CC BY-SA 4.0'
 
-# Google analytics code
-googleAnalytics = 'G-FLLW615HYM'
-
 enableRobotsTXT = true
 
 [module]
