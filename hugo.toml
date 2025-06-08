@@ -68,7 +68,7 @@ path = "github.com/tomfran/typo/v2"
   theme = 'preferred_color_scheme'
 
   [params.author]
-  email = 'dtamsen+blog@gmail.com'
+  email = 'derek@devopsderek.com'
   name = 'Derek Tamsen'
 
   # Social icons
