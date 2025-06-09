@@ -4,7 +4,7 @@ date: "2012-11-11T00:17:00-08:00"
 draft: false
 summary: "About Me"
 description: "About Me"
-toc: false
+toc: true
 readTime: false
 autonumber: false
 math: false
@@ -14,7 +14,6 @@ hideBackToTop: false
 disable_comments: true
 ---
 
-## devops Derek
 devops Derek is a place to keep notes related to things I am working on. It makes it easier to later `grep -iR something_I_did_in_the_past ./`. Hopefully, it is also useful to others.
 
 ## Me

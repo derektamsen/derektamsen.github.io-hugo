@@ -51,6 +51,8 @@ path = "github.com/tomfran/typo/v2"
   listSummaries = true
   listDateFormat = 'Jan 2, 2006'
 
+  author = 'Derek Tamsen'
+
   # Breadcrumbs
   [params.breadcrumbs]
   enabled = true
@@ -66,10 +68,6 @@ path = "github.com/tomfran/typo/v2"
   categoryid = 'DIC_kwDOAbxt684CjJ8V'
   mapping = 'pathname'
   theme = 'preferred_color_scheme'
-
-  [params.author]
-  email = 'derek@devopsderek.com'
-  name = 'Derek Tamsen'
 
   # Social icons
   [[params.social]]
