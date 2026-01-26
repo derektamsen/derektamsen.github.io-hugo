@@ -24,7 +24,7 @@ path = "github.com/tomfran/typo/v2"
   description = 'A Tech Blog'
 
   # Appearance settings
-  theme = 'auto'
+  theme = 'dark'
   colorPalette = 'catpuccin'
   hideHeader = false
 
@@ -98,4 +98,5 @@ path = "github.com/tomfran/typo/v2"
 # Syntax highligth on code blocks
 [markup]
   [markup.highlight]
-  style = 'catppuccin-frappe'
+  noClasses = true
+  style = "catppuccin-mocha"

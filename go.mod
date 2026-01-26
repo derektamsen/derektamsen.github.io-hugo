@@ -1,5 +1,5 @@
 module github.com/derektamsen/derektamsen.github.io-hugo
 
-go 1.23.4
+go 1.25.5
 
-require github.com/tomfran/typo/v2 v2.2.0 // indirect
+require github.com/tomfran/typo/v2 v2.3.0 // indirect
