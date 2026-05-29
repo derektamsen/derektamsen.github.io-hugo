@@ -1,5 +1,5 @@
 baseURL = 'https://www.devopsderek.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'devops Derek'
 copyright = 'This work is licensed under CC BY-SA 4.0'
 
@@ -7,7 +7,7 @@ enableRobotsTXT = true
 
 [module]
 [[module.imports]]
-path = "github.com/tomfran/typo/v2"
+path = "github.com/tomfran/typo/v3"
 
 [taxonomies]
   tag = 'tags'

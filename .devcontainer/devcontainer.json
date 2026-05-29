@@ -6,14 +6,14 @@
 	"image": "mcr.microsoft.com/devcontainers/base:trixie",
 	"features": {
 		"ghcr.io/devcontainers/features/hugo:1": {
-			"version": "latest"
+			"version": "0.162.1"
 		},
 		"ghcr.io/devcontainers/features/github-cli:1": {
 			"installDirectlyFromGitHubRelease": true,
 			"version": "latest"
 		},
 		"ghcr.io/devcontainers/features/go:1": {
-			"version": "1.25.5"
+			"version": "1.26.3"
 		}
 	},
 
